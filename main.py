@@ -19,10 +19,6 @@ from util import *
 
 import scipy.signal as signal
 
-""" Adult income classification
-In this lab we will build our own neural network pipeline to do classification on the adult income dataset. More
-information on the dataset can be found here: http://www.cs.toronto.edu/~delve/data/adult/adultDetail.html
-"""
 seed = 1
 torch.manual_seed(seed)
 
